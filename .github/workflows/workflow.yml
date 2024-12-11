@@ -19,7 +19,7 @@ jobs:
           snowUsername: ${{ secrets.SN_USERNAME }}
           snowPassword: ${{ secrets.SN_PASSWORD }}
           snowSourceInstance: ${{ secrets.SN_DEV_INSTANCE }}
-          appSysID: ${{ secrets.APP_SYS_ID }}
+          appSysID: ${{ secrets.SN_APP_SYSID }}
 
       - name: Run Tests 
         id: atf_test_dev
@@ -29,7 +29,7 @@ jobs:
           browserVersion:
           osName:
           osVersion:
-          testSuiteSysId: ${{ secrets.TEST_SUITE_ID }}
+          testSuiteSysId: ${{ secrets.SN_ATFTESTSUITE_SYSID  }}
           testSuiteName:
         env:
           snowUsername: ${{ secrets.SN_USERNAME }}
