@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description>demo3</description>
+        <name>demo3</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[//demo3]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-11 03:07:28</sys_created_on>
+        <sys_id>8fd374db9fda52107f441f1b5524ab79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>demo3</sys_name>
+        <sys_package display_value="ATF-Session-1-Demo3" source="x_cdltd_atf_sessi3">119e609b9f9a52107f441f1b5524ab23</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF-Session-1-Demo3">119e609b9f9a52107f441f1b5524ab23</sys_scope>
+        <sys_update_name>sys_script_fix_8fd374db9fda52107f441f1b5524ab79</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-11 03:07:28</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>
